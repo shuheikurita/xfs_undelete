@@ -4,7 +4,11 @@ Check up the inode number of the salvaged file before use.
 
 Usage:
 ```sh
-./xfs_undelete (-s inode_number_for_salvage) broken_imagefile.img
+./xfs_undelete (-s inode_number_for_salvage) broken_drive_imagefile.img
+```
+Recommend: when you use this tool for [xfs_salvage](https://github.com/shuheikurita/xfs_salvage), it is recommended to backup the whole disk with `ddrescue`:
+```sh
+$ sudo ddrescue -d /dev/DRIVE broken_drive_imagefile.img DRIVE.fullimage.log
 ```
 
 # xfs_undelete
