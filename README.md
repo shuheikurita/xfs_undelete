@@ -1,3 +1,11 @@
+# Disclaimer
+A simple modification from xfs_undelete to salvage files from broken xfs images.
+Check up inode number before file salvage.
+
+```sh
+./xfs_undelete (-s inode_number_for_salvage) broken_imagefile.img
+```
+
 # xfs_undelete
 An undelete tool for the XFS filesystem.
 
