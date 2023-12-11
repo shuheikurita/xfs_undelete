@@ -1,6 +1,6 @@
 # Disclaimer
 A simple modification from xfs_undelete for salvaging files from broken xfs images.
-Check up the inode number of the salvaged file before use.
+Check up the inode number of the salvaged file before use. ABSOLUTELY NO WARRANTY.
 
 Usage:
 ```sh
